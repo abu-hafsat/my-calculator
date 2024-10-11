@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+#calc {
+    width: 300px;
+    height: 480px;
+    border-radius: 20px;
+    border: 1px solid lightblue;
+    padding-top: 5px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#clock{
+    width: 80px;
+    padding: 10px;
+    border: 1px solid lightblue;
+    align-self: flex-end;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: blue;
+    margin-bottom: 0px;
+    text-align: center;
+    
+
+}
+
+#screen{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+    margin: 10px auto;
+    font-size: 1.5rem;
+    padding: 5px;
+    text-align: end;
+}
+
+#head{
+    color: gray;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.btn{
+    width: 78px;
+    padding: 5px;
+    border-radius: 7px;
+    color: blue;
+    font-size: 1.5rem;
+    border: 1px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+#btn-equal{
+    width: 165px;
+    padding: 5px;
+    border-radius: 5px;
+    color: blue;
+    font-size: 1.5rem;
+    border: 1px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+#firstrow{
+    width: 250px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+}
